@@ -18,13 +18,13 @@ import android.widget.Toast;
 import com.onyx.android.sample.R;
 import com.onyx.android.sample.dialog.DialogApplicationOpenList.OnApplicationSelectedListener;
 import com.onyx.android.sdk.data.util.ActivityUtil;
-import com.onyx.android.sdk.ui.dialog.OnyxDialogBase;
+import com.onyx.android.sdk.ui.dialog.DialogBaseOnyx;
 
 /**
  * @author qingyue
  *
  */
-public class DialogOpenWith extends OnyxDialogBase
+public class DialogOpenWith extends DialogBaseOnyx
 {
     private Button mButtonText = null;
     private Button mButtonAudio = null;

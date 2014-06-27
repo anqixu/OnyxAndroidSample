@@ -18,13 +18,13 @@ import com.onyx.android.sample.dialog.adapter.ListViewPathIndicatorAdapter;
 import com.onyx.android.sdk.data.OnyxItemURI;
 import com.onyx.android.sdk.ui.OnyxGridView;
 import com.onyx.android.sdk.ui.data.GridItemData;
-import com.onyx.android.sdk.ui.dialog.OnyxDialogBase;
+import com.onyx.android.sdk.ui.dialog.DialogBaseOnyx;
 
 /**
  * @author joy
  *
  */
-public class DialogPathIndicator extends OnyxDialogBase
+public class DialogPathIndicator extends DialogBaseOnyx
 {
     private StorageActivity mActivity = null;
     private OnyxItemURI mRoot = null;

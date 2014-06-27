@@ -158,9 +158,8 @@ public class StorageActivity extends OnyxBaseActivity
                 }); 
                 adapter.getPaginator().registerOnPageIndexChangedListener(new OnPageIndexChangedListener()
                 {
-
                     @Override
-                    public void onPageIndexChanged()
+                    public void onPageIndexChanged(int a, int b)
                     {
                         EpdController.invalidate(StorageActivity.this.getGridView(), UpdateMode.GU);
                     }

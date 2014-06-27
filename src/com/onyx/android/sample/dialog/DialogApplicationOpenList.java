@@ -25,14 +25,14 @@ import com.onyx.android.sdk.data.util.FileUtil;
 import com.onyx.android.sdk.device.EpdController;
 import com.onyx.android.sdk.device.EpdController.UpdateMode;
 import com.onyx.android.sdk.ui.OnyxGridView;
-import com.onyx.android.sdk.ui.dialog.OnyxDialogBase;
+import com.onyx.android.sdk.ui.dialog.DialogBaseOnyx;
 
 /**
  * 
  * @author joy
  *
  */
-public class DialogApplicationOpenList extends OnyxDialogBase
+public class DialogApplicationOpenList extends DialogBaseOnyx
 {
     @SuppressWarnings("unused")
     private static final String TAG = "DialogApplicationOpenList";
