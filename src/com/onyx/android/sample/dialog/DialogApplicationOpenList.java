@@ -3,9 +3,6 @@
  */
 package com.onyx.android.sample.dialog;
 
-import java.io.File;
-import java.util.List;
-
 import android.app.Activity;
 import android.content.pm.ResolveInfo;
 import android.database.DataSetObserver;
@@ -26,6 +23,9 @@ import com.onyx.android.sdk.device.EpdController;
 import com.onyx.android.sdk.device.EpdController.UpdateMode;
 import com.onyx.android.sdk.ui.OnyxGridView;
 import com.onyx.android.sdk.ui.dialog.DialogBaseOnyx;
+
+import java.io.File;
+import java.util.List;
 
 /**
  * 

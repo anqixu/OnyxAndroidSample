@@ -3,8 +3,6 @@
  */
 package com.onyx.android.sample.dialog;
 
-import java.util.ArrayList;
-
 import android.os.Bundle;
 import android.view.View;
 import android.widget.AdapterView;
@@ -19,6 +17,8 @@ import com.onyx.android.sdk.data.OnyxItemURI;
 import com.onyx.android.sdk.ui.OnyxGridView;
 import com.onyx.android.sdk.ui.data.GridItemData;
 import com.onyx.android.sdk.ui.dialog.DialogBaseOnyx;
+
+import java.util.ArrayList;
 
 /**
  * @author joy

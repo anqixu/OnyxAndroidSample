@@ -3,9 +3,6 @@
  */
 package com.onyx.android.sample.dialog;
 
-import java.io.File;
-import java.util.List;
-
 import android.app.Activity;
 import android.content.Intent;
 import android.content.pm.PackageManager;
@@ -19,6 +16,9 @@ import com.onyx.android.sample.R;
 import com.onyx.android.sample.dialog.DialogApplicationOpenList.OnApplicationSelectedListener;
 import com.onyx.android.sdk.data.util.ActivityUtil;
 import com.onyx.android.sdk.ui.dialog.DialogBaseOnyx;
+
+import java.io.File;
+import java.util.List;
 
 /**
  * @author qingyue

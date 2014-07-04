@@ -206,7 +206,6 @@
     <string name="name_can_not_empty">Name can not be empty</string>
     <string name="recent_reading">Recent Reading</string>
     <string name="new_arrival">New Arrival</string>
-    <string name="progress">0%</string>
     <string name="author">Author</string>
     <string name="file_name">File name</string>
     <string name="type">Type</string>
